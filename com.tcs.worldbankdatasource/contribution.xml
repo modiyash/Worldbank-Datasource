@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdkExtension
+	xmlns="http://www.sap.com/bi/zen/sdk"
+	id="com.tcs.worldbankdatasource"
+	title="Design Studio SDK Extension for World Bank REST API"
+	version="1.0"
+	vendor="Tata Consultancy Services">
+	<component
+		id="WorldBankDataSource"
+		title="World Bank Data Source"
+		tooltip="Allows access to data from the World Bank API"
+		icon="res/icon.png"
+		handlerType="datasource">
+		<jsInclude>res/js/component.js</jsInclude>
+		<property id="countries" title="Countries" type="String"></property>
+		<property type="String" title="Range" id="range"></property>
+		<property type="String" title="Indicators" id="indicators"></property>
+	</component>
+</sdkExtension>
